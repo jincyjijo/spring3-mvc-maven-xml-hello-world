@@ -4,7 +4,7 @@ agent any
         stage('SCM') {
             steps {
                 // Get some code from a GitHub repository
-                   git credentialsId: 'github_credentials', url: 'https://github.com/jincyjijo/spring3-mvc-maven-xml-hello-world.git'
+                   git credentialsId: 'github_credential', url: 'https://github.com/jincyjijo/spring3-mvc-maven-xml-hello-world.git'
                               
             }
         }  
