@@ -29,7 +29,7 @@ agent any
             steps {
                 // Tomcat deploy
                     
-                    sh "curl -v -u admin:adminadmin -T /var/lib/jenkins/workspace/spring3/target/spring3-mvc-maven-xml-hello-world-1.0-SNAPSHOT.war 'http://ec2-13-232-142-131.ap-south-1.compute.amazonaws.com:8080/manager/text/deploy?path=/jithin&update=true'"
+                    sh "curl -v -u admin:adminadmin -T /var/lib/jenkins/workspace/spring3/target/spring3-mvc-maven-xml-hello-world-1.0-SNAPSHOT.war 'http://ec2-44-211-60-58.compute-1.amazonaws.com:8080/manager/text/deploy?path=/jithin&update=true'"
                               
                }    
            
